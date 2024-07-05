@@ -1,6 +1,7 @@
-def circle(r):
-    area = 22/7*(r**2)
-    return area
+def bmi(kg, cm):
+    BMI = kg/(cm/100)**2
+    return BMI
 
-r = int(input("รับค่า"))
-print("พื้นที่วงกลม %d" % circle(4))
+kg = int(input("kelogram "))
+cm = int(input("height "))
+print("BMI %.2f" % bmi(kg, cm))

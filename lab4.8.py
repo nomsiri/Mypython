@@ -16,5 +16,5 @@ def compare(bmi):
 
 kg = int(input("รับค่าน้ำหนัก:"))
 cm = int(input("รับค่าส่วนสูง:"))
-print("ดัชนีมวลกาย %.2f" % bmi(kg,cm))
+print("ดัชนีมวลกาย: %.2f" % bmi(kg,cm))
 print("อยู่ในเกณฑ์: %s" % compare(bmi(kg,cm)))
